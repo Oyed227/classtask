@@ -1,0 +1,61 @@
+/* #memo{
+    background-color: green;
+    width: 180px;
+    height: 180px;
+    position: relative;
+    top: 10px;
+
+}
+#demo{
+    background-color: red;
+    width:  180px;
+    height: 180px;
+    position: absolute;
+    left: 100px;
+    margin-top: 50px;
+    
+} */
+
+
+.side-bar{
+    float: left;
+    width: 20%;
+    padding: 20px;
+    background-color: navy;
+}
+
+.side-bar a {
+    display: block;
+    color: white;
+}
+
+.outlet{
+    float: left;
+    width: 80%;
+}
+
+.mountain-image {
+    width: 100%;
+    height: 300px;
+    
+}
+.mountain {
+    float: left;
+    width: 20%;
+    border: 1px solid gray;
+    margin: 20px;
+}
+
+.second {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    clear: both;
+}
+
+.words{
+    width: 700px;
+    height: 300px;
+    border: 1px solid red;
+    overflow: scroll;
+}
+
